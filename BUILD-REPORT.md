@@ -40,7 +40,13 @@ traffic were invented.
 ## Verification
 
 - `node cli/makefun.mjs check` on the final commit + transcripts bundle:
-  see check output (0 failed required before submit).
+  **13 passed, 0 failed, 5 skipped, 5 checked at submission** (run 2026-11-16
+  11:28 UTC). Highlights: ad_page (index.html carries the referral link,
+  ad.png is a PNG), thinking_reproduces 82.8% (entrypoint 160 authored
+  lines), thinking_revised (2 writes), thinking_priced (59 usage records),
+  transcripts_run_record (scheduled prompt, in-session system prompt,
+  1 instruction file, no MCP servers). Repo public, created after the
+  opening, commit pushed — all verified live via gh.
 - Page checked in the screenshot: code and link visible, layout clean at
   1280×800 (the "How it works" section sits below the fold at that size,
   as in the kit starter's own ad.png).
